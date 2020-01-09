@@ -3,9 +3,12 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-- ipykernel
-- python=3.7
-- pip
-- streamlit 
-- jupyter-server-proxy 
-- nbserverproxy
+  - pip
+  - ipykernel
+  - python=3.7
+  - pip:
+    - imageio==2.6.1
+    - pathtools==0.1.2
+    - streamlit
+    - upyter-server-proxy
+    - nbserverproxy
