@@ -10,5 +10,5 @@ dependencies:
     - imageio==2.6.1
     - pathtools==0.1.2
     - streamlit
-    - upyter-server-proxy
+    - jupyter-server-proxy
     - nbserverproxy
