@@ -4,4 +4,4 @@ jupyter serverextension enable --sys-prefix nbserverproxy
 mv .binder/streamlit_call.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable streamlit extension
 jupyter serverextension enable --sys-prefix streamlit_call
-git https://github.com/godatadriven/rhyme-with-ai.git
+git clone https://github.com/godatadriven/rhyme-with-ai.git
