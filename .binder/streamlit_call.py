@@ -5,5 +5,6 @@ import sys
 def load_jupyter_server_extension(nbapp):
     """serve the streamlit app"""
     os.chdir('rhyme-with-ai/app/')
-    sys.path.insert(0, "/home/jovyan/rhyme-with-ai/src/rhyme_with_ai")
+    path = '/home/jovyan/rhyme-with-ai/src/rhyme_with_ai'
+    os.environ['PATH'] += ':'+path
     Popen(["streamlit", "run", "app.py", "--browser.serverAddress=0.0.0.0", "--server.enableCORS=False"])
