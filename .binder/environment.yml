@@ -1,0 +1,13 @@
+name: rhyme-with-ai
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel
+  - python=3.7
+  - pip
+  - pip:
+    - pathtools==0.1.2
+    - streamlit
+    - jupyter-server-proxy
+    - nbserverproxy  
