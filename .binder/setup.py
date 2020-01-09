@@ -12,6 +12,8 @@ requirements = [
     "streamlit==0.51.0",
     "tensorflow",
     "transformers",
+    "jupyter-server-proxy",
+    "nbserverproxy",
 ]
 
 extra_requirements = {
