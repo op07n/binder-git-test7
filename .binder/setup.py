@@ -13,7 +13,7 @@ requirements = [
     "tensorflow",
     "transformers",
     "jupyter-server-proxy",
-    "nbserverproxy",
+    "nbserverproxy"
 ]
 
 extra_requirements = {
